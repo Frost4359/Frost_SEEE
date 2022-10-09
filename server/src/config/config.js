@@ -6,7 +6,7 @@ module.exports = {
         password: process.env.DB_PASS || '',
         options: {
         dialect: process.env.DIALECT || 'sqlite',//sqlite mysql
-        storage: './Com-gt.sqlite'
+        storage: './sakda.sqlite'
         //host: process.env.HOST || 'localhost',
         },
         },  
