@@ -13,7 +13,6 @@ app.use(cors())
 app.use('/assets', express.static('public'))
 app.use('/assets', express.static('src/public'))
 
-// ถ้าเปิด จะล็อกอินได้แต่ ตอนนี้ยังส่ง token ไม่ได้
 require('./userPassport')
 
 require('./routes')(app)
